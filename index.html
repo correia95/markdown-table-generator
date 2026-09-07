@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#2563eb" />
+
+    <title>Markdown Table Generator — build a table, copy Markdown / HTML / CSV</title>
+    <meta
+      name="description"
+      content="Fill in a grid, set column alignment, and copy the table as Markdown (padded or compact), HTML, CSV or TSV. Paste an existing Markdown table, CSV or TSV to edit it. Live preview. Runs in your browser, no sign-up."
+    />
+    <link rel="canonical" href="https://markdown-table-generator.correia95.workers.dev/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Markdown Table Generator" />
+    <meta property="og:description" content="Build a table in a grid, set alignment, copy as Markdown / HTML / CSV / TSV. Paste a table to edit it. Live preview. Client-side." />
+    <meta property="og:url" content="https://markdown-table-generator.correia95.workers.dev/" />
+    <meta property="og:image" content="https://markdown-table-generator.correia95.workers.dev/og.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Markdown Table Generator" />
+    <meta name="twitter:description" content="Build a table in a grid, set alignment, copy as Markdown / HTML / CSV / TSV. Paste a table to edit it. Live preview. Client-side." />
+    <meta name="twitter:image" content="https://markdown-table-generator.correia95.workers.dev/og.svg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Markdown Table Generator",
+        "url": "https://markdown-table-generator.correia95.workers.dev/",
+        "applicationCategory": "DeveloperApplication",
+        "operatingSystem": "Any",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "description": "Build a table in an editable grid with per-column alignment and export it as padded or compact Markdown, HTML, CSV or TSV, with paste-to-import, entirely in the browser."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I make a table in Markdown?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Write the header cells separated by pipe characters, then a divider row of dashes, then each body row. Alignment goes on the divider: :--- for left, :---: for centre, ---: for right. This tool builds all of that from a grid you fill in."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I convert a CSV to a Markdown table?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Open the import box, paste the CSV (or TSV, or an existing Markdown table) and load it into the grid, then switch the output format to Markdown and copy."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the compact Markdown option?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Normal output pads every column so the raw Markdown lines up and is easy to read in a diff. Compact output uses single spaces, which is shorter but harder to read as source."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is my table sent anywhere?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. It is built and formatted in your browser and saved only in local storage. The page works offline once loaded."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <noscript>
+      <p style="text-align: center; padding: 20px">
+        This Markdown table generator needs JavaScript. Fill in a grid and copy the table as
+        Markdown, HTML, CSV or TSV.
+      </p>
+    </noscript>
+  </body>
+</html>

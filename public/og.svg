@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0c0d11" />
+  <text x="90" y="130" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="70" font-weight="800" fill="#e9e9f0" letter-spacing="-1">Markdown Table Generator</text>
+  <text x="90" y="184" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="26" fill="#8aa6e0">Grid editor · alignment · Markdown / HTML / CSV / TSV · paste to import</text>
+  <g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="27" fill="#e9e9f0">
+    <text x="90" y="290">| Feature  | Free  | Pro       |</text>
+    <text x="90" y="326">| :------- | :---: | :-------: |</text>
+    <text x="90" y="362">| Projects | 3     | Unlimited |</text>
+    <text x="90" y="398">| Support  | Email | Priority  |</text>
+  </g>
+  <text x="90" y="490" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="26" fill="#e9e9f0">Padded or compact · live preview · copy</text>
+  <text x="90" y="532" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="21" fill="#6c6c7e">Built in your browser · no sign-up · works offline</text>
+</svg>
